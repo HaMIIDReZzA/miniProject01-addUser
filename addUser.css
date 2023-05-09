@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 50px auto;
+}
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd;
+    margin-bottom: 12px; 
+}
+#addButton{
+    height: 35px;
+    width: 110px;
+    color: white;
+    background-color: rgb(18, 199, 154);
+    border-color: transparent;
+    padding: 3px;
+    margin-left: 16%;
+}
+.user-container{
+    height: 0px;
+    overflow: hidden;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.text-center{
+    text-align: center;
+    margin: 10px 0 5px;
+    font-weight: 400;
+}
+.input-container{
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    height: 80%;
+    padding: 10px 0 10px 60px;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.form-group{
+    width: 50%;
+    margin: auto;
+}
+.form-group input{
+    border:2px solid transparent;
+    border-bottom: 2px solid black;
+    width: 80%;
+    height: 25px;
+}
+.form-group input:hover{
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+}
+.button-container button{
+    width: 49%;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 0;
+    border: none;
+    background-color: hsl(150, 99%, 40%);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    
+}
+#background-red{
+    background-color: #ff5d54;
+}
+table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid black;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tr{
+    display: flex;
+    justify-content: space-around;
+}
+table tr:nth-of-type(even){
+    background-color: #b3b3b362;
+}
+#tr-01{
+    background-color: #7e7d7d83;
+}
+.btn-sm{
+    background-color: #ff00001f;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: red;
+    font-size: small;
+}
+.btn-sm::before{
+    content: "\01F5D1";
+    font-size: larger;
+}
